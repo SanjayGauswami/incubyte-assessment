@@ -25,13 +25,6 @@ void move_backward(Spacecraft& spacecraft) {
   
 }
 
-
-
-
-
-
-
-
 void execute_commands(Spacecraft& spacecraft, const std::vector<char>& commands) {
     for (char command : commands) {
         switch (command) {
